@@ -2,11 +2,18 @@
     font-family: "OpenSans";
     src: url(./fonts/OpenSans-Regular.ttf);
 }
+
+@font-face {
+    font-family: "OpenSans Bold" ;
+    src: url(./fonts/OpenSans-Bold.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "OpenSans";
 }
+
 .container {
     margin: 0 auto;
     width: 1320px;
@@ -82,7 +89,7 @@ header {
 }
 
 .banner__text {
-    width: 1305px;
+    width: 1320px;
     top: 160px;
     left: 0px;
     display: flex;
@@ -95,8 +102,8 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
-    line-height: 125px;
-    letter-spacing: 0.04em;
+    line-height: 108px;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -105,8 +112,8 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
-    line-height: 125px;
-    letter-spacing: 0.03em;
+    line-height: 91px;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -125,6 +132,7 @@ header {
 }
 
 .priority__title {
+    font-family: "OpenSans Bold";
     font-style: normal;
     font-weight: 700;
     font-size: 55.1654px;
@@ -237,8 +245,9 @@ header {
     width: 384px;
     height: 324px;
     background-color: #fff;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
 }
 
 .course__card2 {
@@ -249,6 +258,8 @@ header {
     background-color: #fff;
     justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
 }
 
 .course__cards_icon {
@@ -266,16 +277,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    align-items: center;
     width: 237px;
     margin-left: 15px;
 }
 .course__card_title {
+    font-family: "OpenSans Bold";
     font-style: normal;
     font-weight: 700;
     font-size: 62.2516px;
     line-height: 60px;
     text-align: center;
     color: #0C1608;
+    width: 241px;
 }
 .course__card_subtitle {
     font-style: normal;
@@ -288,6 +302,19 @@ header {
 .course__button {
     width: 318.17px;
     height: 92.96px;
+    background: #243906;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.course__button2 {
+    width: 368px;
+    height: 93px;
     background: #243906;
     font-style: normal;
     font-weight: 600;
@@ -465,6 +492,37 @@ header {
     color: #FFFFFF;
     border: none;
     margin-bottom: 120px;
+}
+
+
+.placeholder-box {
+	display: block;	
+	position: relative;
+}
+
+.placeholder-box input {
+	display: block;
+	width: 346px;
+    height: 63px;
+    background: #F7F7F7;
+    border-radius: 6px;
+    border: none;
+}
+.placeholder-text {    
+	display: none;
+	width: 100%; 
+	line-height: 37px;
+	position: absolute;
+	left: 12px;
+	top: 15px;
+	bottom: 0;
+	color: #888;
+	cursor: text;
+	user-select: none;
+}
+ 
+.placeholder-box input:invalid + .placeholder-text {
+	display: block;
 }
 
 
