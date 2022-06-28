@@ -122,8 +122,7 @@ header {
 
 
 /* priority */
-.priority {
-}
+
 .priority__text {
     display: flex;
     flex-direction: column;
@@ -320,6 +319,7 @@ header {
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .course__button2 {
@@ -333,13 +333,12 @@ header {
     text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 
 
 /* feedback */
-.feedback {
-}
 
 .feedback__container {
     display: flex;
@@ -392,6 +391,7 @@ header {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 85px;
+    cursor: pointer;
 }
 .feedback__subtitle {
     font-style: normal;
@@ -487,7 +487,7 @@ header {
 .feedback__button_container {
     width: 713px;
     display: flex;
-
+    cursor: pointer;
 }
 
 .feedback__form_button {
@@ -502,8 +502,8 @@ header {
     color: #FFFFFF;
     border: none;
     margin-bottom: 120px;
+    cursor: pointer;
 }
-
 
 .placeholder-box {
 	display: block;	
@@ -565,9 +565,98 @@ footer {
 .footer__social {
     margin-top: 52px;
 }
-.footer__social_icon-vk {
-}
+
 .footer__social_icon-telegram {
     margin-left: 13px;
 }
 
+
+
+/* media */
+
+@media screen and (max-width:1280px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .header__container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .banner__image_img {
+        width: 100%;
+    }
+
+    .banner__text {
+       width: auto;
+       flex-wrap: wrap;
+       margin-left: 30px;
+       top: 100px;
+       left: 50px;
+    }
+
+    .banner__title {
+        width: auto;
+        text-wrap: wrap;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .banner__subtitle {
+        width: auto;
+        text-wrap: wrap;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .priority__subtitle {
+        margin-bottom: 40px;
+    }
+
+    .priority__cards_row {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .priority__card {
+        margin-bottom: 20px;
+    }
+
+    .course__container {
+        height: auto;
+    }
+
+    .course__cards_row1, .course__cards_row2 {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .course__card, .course__card2 {
+        margin-bottom: 20px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__info {
+        margin-bottom: 20px;
+    }
+
+    .footer__social {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    
+}
