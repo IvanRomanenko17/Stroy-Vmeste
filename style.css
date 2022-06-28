@@ -31,22 +31,38 @@ header {
     align-items: center;
 }
 .header__logo {
+    width: 167px;
+    height: 64px;
 }
+
 .header__menu {
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
+    width: 289px;
 }
 
 .header__menu_icon {
-
+    margin-top: 6px;
 }
 
 .header__phone {
     display: flex;
 }
+
+.header__phone_icon {
+    margin-right: 20px;
+}
+
 .header__phone-number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 48px;
 }
 
 
@@ -311,32 +327,110 @@ header {
     color: #979797;
     width: 706px;
 }
+
+.feedback__input {
+    width: 346px;
+    height: 63px;
+    left: 596px;
+    top: 4107px;
+    background: #F7F7F7;
+    border-radius: 6px;
+    border: none;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #7C7C7C;
+}
+
 .feedback__form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .feedback__form_up {
+    display: flex;
+    width: 712px;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 .feedback__form_left {
+    height: 146px;
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .feedback__form_right {
+    height: 146px;
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.feedback__form_center {
+.feedback__input-center {
+    width: 714px;
+    height: 164px;
+    background: #F7F7F7;
+    border-radius: 6px;
+    border: none;
 }
 .feedback__form_description {
+    display: flex;
+    width: 723px;
+
 }
 .feedback__form_description_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #979797;
 }
+
+.feedback__checkbox { 
+    width: 9px;
+    height: 9px;
+    background: #243906;
+    border-radius: 1px;
+}
+
 .feedback__form_button {
+    width: 267px;
+    height: 66px;
+    background: #243906;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
 }
 
 
 
 /* footer */
+footer {
+    background-color: #333333;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__info {
 }
 .footer__info_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.7347px;
+    line-height: 24px;
+    color: #999496;
 }
 .footer__social {
 }

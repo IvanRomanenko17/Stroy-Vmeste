@@ -17,7 +17,7 @@
                 </div>
                 <div class="header__menu">
                     <div class="header__phone">
-                        <img src="./image/header__phone-icon.svg" alt="phone">
+                        <img class="header__phone_icon" src="./image/header__phone-icon.svg" alt="phone">
                         <p class="header__phone-number">+7 (915) 111 55 11</p>
                     </div>
                     <div class="header__menu_icon">
@@ -285,19 +285,19 @@
                     <div class="feedback__form">
                         <div class="feedback__form_up">
                             <div class="feedback__form_left">
-                                <input type="text" name="Имя" id="">
-                                <input type="tel" name="Телефон" id="">
+                                <input class="feedback__input" type="text" name="Имя" id="" placeholder="Имя">
+                                <input class="feedback__input" type="tel" name="Телефон" id="" placeholder="Телефон">
                             </div>
                             <div class="feedback__form_right">
-                                <input type="text" name="Фамилия" id="">
-                                <input type="email" name="E-mail*" id="">
+                                <input class="feedback__input" type="text" name="Фамилия" id="" placeholder="Фамилия">
+                                <input class="feedback__input" type="email" name="E-mail*" id="" placeholder="E-mail*">
                             </div>
                         </div>
                         <div class="feedback__form_center">
-                            <input type="text" name="Комментарий" id="">
+                            <input class="feedback__input-center" type="text" name="Комментарий" id="" placeholder="Комментарий">
                         </div>
                         <div class="feedback__form_description">
-                            <input type="checkbox" name="" id="">
+                            <input class="feedback__checkbox" type="checkbox" name="" id="" >
                             <p class="feedback__form_description_text">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных *</p>
                         </div>
                         <button class="feedback__form_button">Отправить</button>
@@ -312,14 +312,16 @@
     <!-- footer -->
     <footer>
         <div class="container">
-            <div class="footer__info">
-                <div class="footer__info_text">© 2018-2021 СНТ Бухгалтерия</div>
-                <div class="footer__info_text"> Услуги предоставляются ИП Бекетов Никита Александрович, ИНН 323501052743, ОГРНИП319774600479523.</div>
-                <div class="footer__info_text">Юридический адрес: 115172, г. Москва, Краснохолмская набережная, дом 13 строение 1</div>
-            </div>
-            <div class="footer__social">
-                <img src="./image/footer__social_icon-vk.svg" alt="vk" class="footer__social_icon-vk">
-                <img src="./image/footer__social_icon-telegram.svg" alt="telegram" class="footer__social_icon-telegram">
+            <div class="footer__container">
+                <div class="footer__info">
+                    <div class="footer__info_text">© 2018-2021 СНТ Бухгалтерия</div>
+                    <div class="footer__info_text"> Услуги предоставляются ИП Бекетов Никита Александрович, ИНН 323501052743, ОГРНИП319774600479523.</div>
+                    <div class="footer__info_text">Юридический адрес: 115172, г. Москва, Краснохолмская набережная, дом 13 строение 1</div>
+                </div>
+                <div class="footer__social">
+                    <img src="./image/footer__social_icon-vk.svg" alt="vk" class="footer__social_icon-vk">
+                    <img src="./image/footer__social_icon-telegram.svg" alt="telegram" class="footer__social_icon-telegram">
+                </div>
             </div>
         </div>
     </footer>
