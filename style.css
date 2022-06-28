@@ -163,7 +163,7 @@ header {
 .priority__card {
     display: flex;
     align-items: flex-start;
-    width: 359px;
+    width: 409px;
     height: 109px;
 }
 .priority__card_icon {
@@ -190,6 +190,16 @@ header {
     font-size: 15px;
     line-height: 20px;
     color: #979797;
+}
+
+.priority__card_style-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ABC419;
+    text-decoration: none;
+
 }
 
 
