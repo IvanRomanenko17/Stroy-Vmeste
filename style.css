@@ -70,32 +70,43 @@ header {
 /* banner */
 
 .banner__image {
-    max-width: 1320px;
+    max-width: 1920px;
     position: relative;
+    display: flex;
+    margin-bottom: 84px;
+    justify-content: center;
 }
 
 .banner__image_img {
-    max-width: 1320px;
+    max-width: 1920px;
 }
 
 .banner__text {
+    width: 1305px;
+    top: 160px;
+    left: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
     position: absolute;
 }
 
 .banner__title {
-
-    margin: 0 auto;
     font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 125px;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .banner__subtitle {
     font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 125px;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
@@ -119,6 +130,7 @@ header {
     font-size: 55.1654px;
     line-height: 75px;
     color: #2C2C2C;
+    margin-bottom: 12px;
 }
 .priority__subtitle {
     font-style: normal;
@@ -126,15 +138,19 @@ header {
     font-size: 17.675px;
     line-height: 24px;
     color: #979797;
+    margin-bottom: 84px;
 }
 .priority__cards {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 133px;
 }
 .priority__cards_row {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 60px;
+
 }
 .priority__card {
     display: flex;
@@ -143,6 +159,7 @@ header {
 .priority__card_icon {
     width: 13px;
     height: 41px;
+    margin-right: 10px;
 }
 .priority__card_text {
     display: flex;
@@ -155,6 +172,7 @@ header {
     line-height: 23px;
     letter-spacing: 0.03em;
     color: #2C2C2C;
+    margin-bottom: 25px;
 }
 .priority__card_subtitle {
     font-style: normal;
@@ -186,6 +204,8 @@ header {
     line-height: 75px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-top: 52px;
+    margin-bottom: 12px;
 }
 .course__subtitle {
     font-style: normal;
@@ -193,18 +213,20 @@ header {
     font-size: 17.675px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-bottom: 84px;
 }
 
 .course__cards_row1 {
     display: flex;
     justify-content: space-between;
     width: 1320px;
+    margin-bottom: 45px;
 }
 
 .course__cards_row2 {
     display: flex;
     justify-content: space-evenly;
-    width: 1320px;
+    width: 969px;
 }
 
 .course__card {
@@ -281,6 +303,8 @@ header {
     font-size: 55.1654px;
     line-height: 75px;
     color: #2C2C2C;
+    margin-top: 85px;
+    margin-bottom: 25px;
 }
 .feedback__title_description {
     font-style: normal;
@@ -290,6 +314,7 @@ header {
     text-align: center;
     color: #979797;
     width: 872px;
+    margin-bottom: 25px;
 }
 .feedback__contacts {
     font-style: normal;
@@ -298,6 +323,7 @@ header {
     line-height: 24px;
     text-align: center;
     color: #2C2C2C;
+    margin-bottom: 25px;
 }
 .feedback__text_button {
     width: 286px;
@@ -310,6 +336,7 @@ header {
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 85px;
 }
 .feedback__subtitle {
     font-style: normal;
@@ -317,6 +344,7 @@ header {
     font-size: 36px;
     line-height: 49px;
     color: #2C2C2C;
+    margin-bottom: 25px;
 }
 .feedback__subtitle_description {
     font-style: normal;
@@ -326,6 +354,7 @@ header {
     text-align: center;
     color: #979797;
     width: 706px;
+    margin-bottom: 36px;
 }
 
 .feedback__input {
@@ -344,6 +373,7 @@ header {
     font-size: 18px;
     line-height: 25px;
     color: #7C7C7C;
+    left: 12px;
 }
 
 .feedback__form {
@@ -377,11 +407,12 @@ header {
     background: #F7F7F7;
     border-radius: 6px;
     border: none;
+    margin-bottom: 6px;
 }
 .feedback__form_description {
     display: flex;
     width: 723px;
-
+    margin-bottom: 38px;
 }
 .feedback__form_description_text {
     font-style: normal;
@@ -398,6 +429,12 @@ header {
     border-radius: 1px;
 }
 
+.feedback__button_container {
+    width: 713px;
+    display: flex;
+
+}
+
 .feedback__form_button {
     width: 267px;
     height: 66px;
@@ -409,6 +446,7 @@ header {
     line-height: 25px;
     color: #FFFFFF;
     border: none;
+    margin-bottom: 120px;
 }
 
 
@@ -424,6 +462,12 @@ footer {
 }
 
 .footer__info {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+    margin-top: 54px;
+    margin-bottom: 75px;
 }
 .footer__info_text {
     font-style: normal;
@@ -433,9 +477,11 @@ footer {
     color: #999496;
 }
 .footer__social {
+    margin-top: 52px;
 }
 .footer__social_icon-vk {
 }
 .footer__social_icon-telegram {
+    margin-left: 13px;
 }
 
