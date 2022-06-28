@@ -586,6 +586,11 @@ footer {
 
 @media screen and (max-width:1280px) {
 
+
+    .header__phone-number {
+        text-decoration: none;
+    }
+
     .container {
         width: 100%;
     }
@@ -656,6 +661,10 @@ footer {
         margin-bottom: 0px;
     }
 
+    .feedback__contacts {
+        text-decoration: none;
+    }
+
     .course__card, .course__card2 {
         margin-bottom: 20px;
     }
@@ -668,6 +677,7 @@ footer {
     .footer__info {
         margin-bottom: 20px;
         margin-left: 20px;
+        text-decoration: none;
     }
 
     .footer__social {
@@ -678,6 +688,18 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+
+    .header__phone-number {
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 7px;
+        width: auto;
+        text-decoration: none;
+    }
+
+    .header__phone_icon {
+        margin-right: 7px;
+    }
 
     .banner__text {
         top: 50px;
@@ -745,6 +767,7 @@ footer {
         width: 400px;
         padding-left: 10px;
         text-wrap: wrap;
+        text-decoration: none;
     }
 
     .feedback__subtitle_description {
@@ -783,5 +806,9 @@ footer {
 
     .feedback__form_button {
         margin-bottom: 25px;
+    }
+
+    .footer__info_text {
+        text-decoration: none;
     }
 }
