@@ -204,7 +204,7 @@ header {
     font-weight: 700;
     font-size: 55.1654px;
     line-height: 75px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.1em;
     color: #FFFFFF;
     margin-top: 52px;
     margin-bottom: 12px;
@@ -241,25 +241,41 @@ header {
     align-items: center;
 }
 
+.course__card2 {
+    display: flex;
+    flex-direction: column;
+    width: 461.92px;
+    height: 324.88px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
 .course__cards_icon {
     width: 93px;
     height: 99px;
 }
 .course__card_content {
     display: flex;
+    width: 318px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 48px;
 }
 .course__card_text {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    width: 237px;
+    margin-left: 15px;
 }
 .course__card_title {
     font-style: normal;
     font-weight: 700;
     font-size: 62.2516px;
-    line-height: 85px;
+    line-height: 60px;
     text-align: center;
     color: #0C1608;
-    
 }
 .course__card_subtitle {
     font-style: normal;
