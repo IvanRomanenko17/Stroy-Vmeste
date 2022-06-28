@@ -697,13 +697,18 @@ footer {
         margin-right: 10px;
         margin-bottom: 10px;
     }
+    .course {
+        background-color: #fff;
+    }
 
     .course__title {
+        color: #2C2C2C;
         font-size: 25px;
         line-height: 30px;
     }
 
     .course__subtitle {
+        color: #2C2C2C;
         text-align: center;
         margin-bottom: 25px;
     }
@@ -755,9 +760,11 @@ footer {
     }
 
     .feedback__form_description {
-        width: 400px;
+        width: 350px;
         padding-left: 10px;
         text-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
 
     .feedback__button_container {
