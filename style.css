@@ -2,11 +2,179 @@
     font-family: "OpenSans";
     src: url(./fonts/OpenSans-Regular.ttf);
 }
-
 body {
     margin: 0;
     padding: 0;
     font-family: "OpenSans";
 }
+.container {
+    margin: 0 auto;
+    width: 1320px;
+}
 
+
+
+/* header */
+header {
+    height: 176px;
+}
+
+.header__container {
+    height: 176px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.header__menu_icon {
+
+}
+
+.header__phone {
+    display: flex;
+}
+.header__phone-number {
+}
+
+
+
+/* banner */
+
+.banner__image {
+    max-width: 1320px;
+    position: relative;
+}
+
+.banner__image_img {
+    max-width: 1320px;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.banner__title {
+
+    margin: 0 auto;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner__subtitle {
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* priority */
+.priority {
+}
+.priority__text {
+}
+.priority__title {
+}
+.priority__subtitle {
+}
+.priority__cards {
+}
+.priority__cards_row {
+}
+.priority__card {
+}
+.priority__card_icon {
+}
+.priority__card_text {
+}
+.priority__card_title {
+}
+.priority__card_subtitle {
+}
+
+
+
+/* course */
+.course {
+}
+.course__title {
+}
+.course__subtitle {
+}
+.course__cards {
+}
+.course__card_content {
+}
+.course__card_text {
+}
+.course__card_title {
+}
+.course__card_subtitle {
+}
+.course__button {
+}
+
+
+
+/* feedback */
+.feedback {
+}
+.feedback__text {
+}
+.feedback__title {
+}
+.feedback__title_description {
+}
+.feedback__contacts {
+}
+.feedback__text_button {
+}
+.feedback__subtitle {
+}
+.feedback__subtitle_description {
+}
+.feedback__form {
+}
+.feedback__form_up {
+}
+.feedback__form_left {
+}
+.feedback__form_right {
+}
+.feedback__form_center {
+}
+.feedback__form_description {
+}
+.feedback__form_description_text {
+}
+.feedback__form_button {
+}
+
+
+
+/* footer */
+.footer__info {
+}
+.footer__info_text {
+}
+.footer__social {
+}
+.footer__social_icon-vk {
+}
+.footer__social_icon-telegram {
+}
 
