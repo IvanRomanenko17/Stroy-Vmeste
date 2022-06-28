@@ -247,21 +247,74 @@ header {
 /* feedback */
 .feedback {
 }
+
+.feedback__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .feedback__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .feedback__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55.1654px;
+    line-height: 75px;
+    color: #2C2C2C;
 }
 .feedback__title_description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.675px;
+    line-height: 24px;
+    text-align: center;
+    color: #979797;
+    width: 872px;
 }
 .feedback__contacts {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.675px;
+    line-height: 24px;
+    text-align: center;
+    color: #2C2C2C;
 }
 .feedback__text_button {
+    width: 286px;
+    height: 49px;
+    background: #2CA621;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .feedback__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #2C2C2C;
 }
 .feedback__subtitle_description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.675px;
+    line-height: 24px;
+    text-align: center;
+    color: #979797;
+    width: 706px;
 }
 .feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .feedback__form_up {
 }
