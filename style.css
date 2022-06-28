@@ -244,7 +244,7 @@ header {
 
 .course__cards_row2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 969px;
 }
 
@@ -488,6 +488,7 @@ header {
     width: 713px;
     display: flex;
     cursor: pointer;
+    justify-content: flex-start;
 }
 
 .feedback__form_button {
@@ -630,11 +631,20 @@ footer {
         height: auto;
     }
 
+    .course__subtitle {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
     .course__cards_row1, .course__cards_row2 {
         flex-direction: column;
         align-items: center;
         margin-bottom: 10px;
         width: auto;
+    }
+
+    .priority__cards {
+        margin-bottom: 0px;
     }
 
     .course__card, .course__card2 {
@@ -648,6 +658,7 @@ footer {
 
     .footer__info {
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 
     .footer__social {
@@ -658,5 +669,104 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    
+
+    .banner__text {
+        top: 50px;
+        left: 0px;
+    }
+
+    .banner__title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .banner__subtitle {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .priority__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .priority__card {
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .course__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .course__subtitle {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .course__cards_row2 {
+        width: auto;
+    }
+
+    .feedback__text {
+        width: auto;
+    }
+
+    .feedback__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .feedback__title_description {
+        width: 400px;
+        padding-left: 10px;
+        text-wrap: wrap;
+    }
+
+    .feedback__contacts {
+        width: 400px;
+        padding-left: 10px;
+        text-wrap: wrap;
+    }
+
+    .feedback__subtitle_description {
+        width: 400px;
+        padding-left: 10px;
+        text-wrap: wrap;
+    }
+
+    .feedback__form_up {
+        width: 400px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .feedback__form_left {
+        margin-bottom: 20px;
+    }
+
+    .feedback__input-center {
+        width: 346px;
+    }
+
+    .feedback__form_description {
+        width: 400px;
+        padding-left: 10px;
+        text-wrap: wrap;
+    }
+
+    .feedback__button_container {
+        width: 400px;
+        justify-content: center;
+    }
+
+    .feedback__form_button {
+        margin-bottom: 25px;
+    }
+
 }
