@@ -63,6 +63,8 @@ header {
 }
 
 .header__phone-number {
+    width: 180px;
+    text-wrap: none;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
