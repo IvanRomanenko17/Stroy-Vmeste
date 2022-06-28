@@ -429,7 +429,8 @@ header {
     font-size: 18px;
     line-height: 25px;
     color: #7C7C7C;
-    left: 12px;
+    position: absolute;
+    top: 25px;
 }
 
 .feedback__form {
@@ -449,6 +450,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 .feedback__form_right {
     height: 146px;
@@ -456,6 +458,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 .feedback__input-center {
     width: 714px;
@@ -522,13 +525,17 @@ header {
 }
 .placeholder-text {    
 	display: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 	width: 100%; 
 	line-height: 37px;
 	position: absolute;
 	left: 12px;
 	top: 15px;
 	bottom: 0;
-	color: #888;
+	color: #7C7C7C;
 	cursor: text;
 	user-select: none;
 }
