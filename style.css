@@ -134,7 +134,7 @@ header {
     font-family: "OpenSans Bold";
     font-style: normal;
     font-weight: 700;
-    font-size: 55.1654px;
+    font-size: 55px;
     line-height: 75px;
     color: #2C2C2C;
     margin-bottom: 12px;
@@ -142,7 +142,7 @@ header {
 .priority__subtitle {
     font-style: normal;
     font-weight: 400;
-    font-size: 17.675px;
+    font-size: 17px;
     line-height: 24px;
     color: #979797;
     margin-bottom: 84px;
@@ -198,7 +198,6 @@ header {
     line-height: 16px;
     color: #ABC419;
     text-decoration: none;
-
 }
 
 
@@ -219,7 +218,7 @@ header {
 .course__title {
     font-style: normal;
     font-weight: 700;
-    font-size: 55.1654px;
+    font-size: 55px;
     line-height: 75px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
@@ -229,7 +228,7 @@ header {
 .course__subtitle {
     font-style: normal;
     font-weight: 400;
-    font-size: 17.675px;
+    font-size: 17px;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 84px;
@@ -262,8 +261,8 @@ header {
 .course__card2 {
     display: flex;
     flex-direction: column;
-    width: 461.92px;
-    height: 324.88px;
+    width: 461px;
+    height: 324px;
     background-color: #fff;
     justify-content: center;
     align-items: center;
@@ -294,7 +293,7 @@ header {
     font-family: "OpenSans Bold";
     font-style: normal;
     font-weight: 700;
-    font-size: 62.2516px;
+    font-size: 62px;
     line-height: 60px;
     text-align: center;
     color: #0C1608;
@@ -303,7 +302,7 @@ header {
 .course__card_subtitle {
     font-style: normal;
     font-weight: 600;
-    font-size: 41.5756px;
+    font-size: 41px;
     line-height: 57px;
     text-align: center;
     color: #0C1608;
@@ -354,7 +353,7 @@ header {
 .feedback__title {
     font-style: normal;
     font-weight: 700;
-    font-size: 55.1654px;
+    font-size: 55px;
     line-height: 75px;
     color: #2C2C2C;
     margin-top: 85px;
@@ -363,7 +362,7 @@ header {
 .feedback__title_description {
     font-style: normal;
     font-weight: 400;
-    font-size: 17.675px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     color: #979797;
@@ -373,7 +372,7 @@ header {
 .feedback__contacts {
     font-style: normal;
     font-weight: 600;
-    font-size: 17.675px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     color: #2C2C2C;
@@ -404,7 +403,7 @@ header {
 .feedback__subtitle_description {
     font-style: normal;
     font-weight: 400;
-    font-size: 17.675px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     color: #979797;
@@ -559,12 +558,13 @@ footer {
 .footer__info_text {
     font-style: normal;
     font-weight: 400;
-    font-size: 17.7347px;
+    font-size: 17px;
     line-height: 24px;
     color: #999496;
 }
 .footer__social {
     margin-top: 52px;
+    cursor: pointer;
 }
 
 .footer__social_icon-telegram {
@@ -775,5 +775,4 @@ footer {
     .feedback__form_button {
         margin-bottom: 25px;
     }
-
 }
