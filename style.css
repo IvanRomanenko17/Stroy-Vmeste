@@ -593,6 +593,7 @@ footer {
 }
 
 .footer__social {
+    display: flex;
     margin-top: 52px;
     cursor: pointer;
 }
@@ -803,7 +804,7 @@ footer {
     }
 
     .course__card, .course__card2 {
-        height: 230px;
+        height: 200px;
     }
 
     .course__cards_row2 {
@@ -911,5 +912,40 @@ footer {
         top: 50px;
         left: 30%;
     }
+
+    .feedback__title {
+        margin-top: 20px;
+    }
+
+    .feedback__title_description, .feedback__subtitle_description, .course__subtitle {
+        width: 350px;
+    }
+
+    .feedback__contacts {
+        width: 280px;
+    }
+
+    .course__container {
+        padding-bottom: 0px;
+    }
+
+    .footer__container {
+        width: 400px;
+    }
+
+    .footer__info {
+        width: 358px;
+        height: 200px;
+    }
+
+    .footer__info_text, .footer__info_row1 {
+        width: 330px;
+        text-wrap: wrap;
+    }
+
+    .footer__social {
+        margin-top: 20px;
+    }
+
 }
 
