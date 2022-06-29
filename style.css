@@ -78,22 +78,31 @@ header {
 
 /* banner */
 
+.banner__container {
+   display: flex;
+   justify-content: center;
+   max-width: 1920px;
+}
+
 .banner__image {
     max-width: 1920px;
-    position: relative;
+    height: auto;
     display: flex;
     margin-bottom: 84px;
     justify-content: center;
 }
 
-.banner__image_img {
-    max-width: 1920px;
+
+
+.banner__text_container {
+    width: 1320px;
+    height: auto;
+    position: absolute;
 }
 
 .banner__text {
+    top: 163px;
     width: 1320px;
-    top: 160px;
-    left: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -101,6 +110,7 @@ header {
 }
 
 .banner__title {
+ 
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
@@ -177,6 +187,9 @@ header {
     flex-direction: column;
 }
 .priority__card_title {
+    display: flex;
+    align-items: center;
+    height: 41px;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -213,9 +226,10 @@ header {
 .course__container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 129px;
 
     align-items: center;
-    height: 1071px;
+    height: 981px;
 }
 .course__title {
     font-style: normal;
@@ -558,7 +572,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: 150px;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 54px;
     margin-bottom: 75px;
 }
@@ -569,6 +583,15 @@ footer {
     line-height: 24px;
     color: #999496;
 }
+
+.footer__info_row1 {
+    margin-bottom: 15px;
+}
+
+.footer__info_row2 {
+    margin-bottom: 22px;
+}
+
 .footer__social {
     margin-top: 52px;
     cursor: pointer;
@@ -594,8 +617,12 @@ footer {
     }
 
     .header__container {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
+    }
+
+    .banner__image {
+        width: 100%;
     }
 
     .banner__image_img {
@@ -604,10 +631,11 @@ footer {
 
     .banner__text {
        width: auto;
+       margin-left: 20px;
        flex-wrap: wrap;
-       margin-left: 30px;
+       margin-left: 130px;
        top: 100px;
-       left: 50px;
+       left: 15%;
     }
 
     .banner__title {
@@ -687,6 +715,12 @@ footer {
 
 @media screen and (max-width:768px) {
 
+
+    .header__container {
+        flex-direction: row;
+    }
+
+
     .header__phone-number {
         font-size: 12px;
         line-height: 15px;
@@ -699,9 +733,13 @@ footer {
         margin-right: 7px;
     }
 
+    .banner__image_img {
+        width: 100%;
+    }
+
     .banner__text {
         top: 50px;
-        left: 0px;
+        left: 20%;
     }
 
     .banner__title {
@@ -719,6 +757,15 @@ footer {
         line-height: 30px;
     }
 
+    .priority__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .priority__cards_row {
+        align-items: start;
+    }
+
     .priority__card {
         width: auto;
         height: auto;
@@ -726,9 +773,22 @@ footer {
         margin-right: 10px;
         margin-bottom: 10px;
     }
+
+    .priority__card_title {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+
+    .priority__card_subtitle {
+        font-size: 10px;
+    }
+
     .course {
         background-color: #fff;
     }
+
+
 
     .course__title {
         color: #2C2C2C;
@@ -742,8 +802,42 @@ footer {
         margin-bottom: 25px;
     }
 
+    .course__card, .course__card2 {
+        height: 230px;
+    }
+
     .course__cards_row2 {
         width: auto;
+    }
+
+    .course__cards_icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .course__card_content {
+        justify-content: center;
+        margin-bottom: 22px;
+    }
+
+    .course__card_text {
+        width: 60%;
+    }
+
+    .course__card_title {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    .course__card_subtitle {
+        font-size: 36px;
+        line-height: 35px;
+    }
+
+    .course__button, .course__button2 {
+        width: 60%;
+        height: 60px;
+        font-size: 20px;
     }
 
     .feedback__text {
@@ -757,7 +851,8 @@ footer {
 
     .feedback__title_description {
         width: 400px;
-        padding-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         text-wrap: wrap;
     }
 
@@ -810,3 +905,11 @@ footer {
         text-decoration: none;
     }
 }
+
+@media screen and (max-width:400px) {
+    .banner__text {
+        top: 50px;
+        left: 30%;
+    }
+}
+
