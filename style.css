@@ -428,6 +428,7 @@ header {
 }
 
 .feedback__input {
+    box-sizing: border-box;
     width: 346px;
     height: 63px;
     left: 596px;
@@ -435,6 +436,11 @@ header {
     background: #F7F7F7;
     border-radius: 6px;
     border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 20px;
 }
 
 ::placeholder {
@@ -472,6 +478,11 @@ header {
     justify-content: space-between;
     position: relative;
 }
+
+.feedback__form_center {
+    position: relative;
+}
+
 .feedback__input-center {
     width: 714px;
     height: 164px;
@@ -479,6 +490,11 @@ header {
     border-radius: 6px;
     border: none;
     margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 20px;
 }
 .feedback__form_description {
     display: flex;
@@ -544,7 +560,7 @@ header {
 	width: 100%; 
 	line-height: 37px;
 	position: absolute;
-	left: 12px;
+	left: 20px;
 	top: 15px;
 	bottom: 0;
 	color: #7C7C7C;
@@ -598,8 +614,10 @@ footer {
     cursor: pointer;
 }
 
-.footer__social_icon-telegram {
+.footer__social_icon-telegram, .footer__social_icon-vk {
     margin-left: 13px;
+    width: 44px;
+    height: 44px;
 }
 
 
@@ -707,8 +725,14 @@ footer {
         text-decoration: none;
     }
 
+    .footer__container {
+        display: flex;
+        align-items: start;
+    }
+
     .footer__social {
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
         margin-bottom: 20px;
     }
 
@@ -902,12 +926,29 @@ footer {
         margin-bottom: 25px;
     }
 
+    
+    .footer__container {
+        align-items: start;
+    }
+
     .footer__info_text {
         text-decoration: none;
+    }
+
+    .footer__container {
+        display: flex;
+        align-items: start;
+    }
+
+    .footer__social {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width:400px) {
+   
     .banner__text {
         top: 50px;
         left: 30%;
@@ -929,8 +970,13 @@ footer {
         padding-bottom: 0px;
     }
 
+    .course__cards_row1, .course__cards_row2, .course__card, .course__card2 {
+        width: 380px;
+    }
+
     .footer__container {
-        width: 400px;
+        width: 380px;
+        align-items: start;
     }
 
     .footer__info {
@@ -943,8 +989,15 @@ footer {
         text-wrap: wrap;
     }
 
+    .footer__container {
+        display: flex;
+        align-items: start;
+    }
+
     .footer__social {
         margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
 
 }
