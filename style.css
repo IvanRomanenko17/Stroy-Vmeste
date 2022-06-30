@@ -64,7 +64,6 @@ header {
 
 .header__phone-number {
     width: 180px;
-    text-wrap: none;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -579,8 +578,6 @@ header {
 	display: block;
 }
 
-
-
 /* footer */
 footer {
     background-color: #333333;
@@ -666,14 +663,12 @@ footer {
 
     .banner__title {
         width: auto;
-        text-wrap: wrap;
         font-size: 35px;
         line-height: 45px;
     }
 
     .banner__subtitle {
         width: auto;
-        text-wrap: wrap;
         font-size: 35px;
         line-height: 45px;
     }
@@ -892,20 +887,17 @@ footer {
         width: 400px;
         margin-left: 20px;
         margin-right: 20px;
-        text-wrap: wrap;
     }
 
     .feedback__contacts {
         width: 400px;
         padding-left: 10px;
-        text-wrap: wrap;
         text-decoration: none;
     }
 
     .feedback__subtitle_description {
         width: 400px;
         padding-left: 10px;
-        text-wrap: wrap;
     }
 
     .feedback__form_up {
@@ -926,7 +918,6 @@ footer {
     .feedback__form_description {
         width: 350px;
         padding-left: 10px;
-        text-wrap: wrap;
         margin-top: 20px;
         margin-bottom: 15px;
     }
@@ -1000,7 +991,6 @@ footer {
 
     .footer__info_text, .footer__info_row1 {
         width: 330px;
-        text-wrap: wrap;
     }
 
     .footer__container {
