@@ -1012,7 +1012,8 @@ footer {
     }
 
     .footer__container {
-        width: 380px;
+        width: 390px;
+        display: flex;
         align-items: start;
     }
 
@@ -1023,11 +1024,6 @@ footer {
 
     .footer__info_text, .footer__info_row1 {
         width: 330px;
-    }
-
-    .footer__container {
-        display: flex;
-        align-items: start;
     }
 
     .footer__social {
