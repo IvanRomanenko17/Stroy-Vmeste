@@ -15,8 +15,10 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    width: 1320px;
+    max-width: 1920px;
+    width: 100%;
+    padding: 0;
+    margin: auto;
 }
 
 p {
@@ -91,7 +93,11 @@ header {
     justify-content: center;
 }
 
-
+.banner__image_img {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+}
 
 .banner__text_container {
     width: 1320px;
@@ -636,6 +642,7 @@ footer {
     }
 
     .container {
+        min-width: 1280px;
         width: 100%;
     }
 
@@ -749,6 +756,11 @@ footer {
 
 @media screen and (max-width:768px) {
 
+
+    .container {
+        min-width: 768px;
+        width: 100%;
+    }
 
     .header__container {
         flex-direction: row;
@@ -954,6 +966,11 @@ footer {
 
 @media screen and (max-width:400px) {
    
+    .container {
+        min-width: 400px;
+        width: 100%;
+    }
+
     .banner__text {
         top: 50px;
         left: 30%;
