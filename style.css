@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 1320px;
     width: 100%;
     padding: 0;
     margin: auto;
@@ -79,15 +79,20 @@ header {
 
 /* banner */
 
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
 .banner__container {
    display: flex;
    justify-content: center;
-   max-width: 1920px;
+   width: 100%;
 }
 
 .banner__image {
-    max-width: 1920px;
-    height: auto;
+    width: 100%;
+    height: 887px;
     display: flex;
     margin-bottom: 84px;
     justify-content: center;
@@ -96,7 +101,7 @@ header {
 .banner__image_img {
     margin: auto;
     width: 100%;
-    max-width: 1920px;
+    height: 887px;
 }
 
 .banner__text_container {
@@ -587,12 +592,15 @@ header {
 /* footer */
 footer {
     background-color: #333333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__container {
-    width: 100%;
+    width:1320px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer__info {
@@ -638,26 +646,32 @@ footer {
 @media screen and (max-width:1280px) {
 
 
+    .container {
+        max-width: 100%;
+    }
+
     .header__phone-number {
         text-decoration: none;
     }
 
-    .container {
-        min-width: 1280px;
-        width: 100%;
-    }
-
     .header__container {
+        width: 100%;
         flex-direction: row;
         justify-content: space-around;
     }
 
+    .banner__container {
+        width: 100%;
+    }
+
     .banner__image {
         width: 100%;
+        height: auto;
     }
 
     .banner__image_img {
         width: 100%;
+        height: auto;
     }
 
     .banner__text {
@@ -743,9 +757,10 @@ footer {
     }
 
     .footer__container {
-        width: 100%;
+        width: auto;
         display: flex;
         align-items: start;
+        
     }
 
     .footer__social {
@@ -760,7 +775,6 @@ footer {
 
 
     .container {
-        min-width: 768px;
         width: 100%;
     }
 
@@ -969,7 +983,6 @@ footer {
 @media screen and (max-width:400px) {
    
     .container {
-        min-width: 400px;
         width: 100%;
     }
 
