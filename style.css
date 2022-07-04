@@ -803,7 +803,7 @@ footer {
 
     .banner__text {
         top: 50px;
-        left: 20%;
+        left: 50px;
     }
 
     .banner__title {
@@ -886,6 +886,7 @@ footer {
 
     .course__card_text {
         width: 60%;
+        margin-left: 0px;
     }
 
     .course__card_title {
@@ -968,6 +969,11 @@ footer {
 
     .footer__info_text {
         text-decoration: none;
+    }
+
+    .footer__info_text {
+        max-width: 700px;
+        width: 100%;
     }
 
     .footer__container {
