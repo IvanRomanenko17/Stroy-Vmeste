@@ -784,6 +784,10 @@ footer {
         flex-direction: row;
     }
 
+    .header__menu {
+        width: 200px;
+    }
+
 
     .header__phone-number {
         font-size: 12px;
