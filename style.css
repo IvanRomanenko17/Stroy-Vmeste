@@ -852,8 +852,6 @@ footer {
         background-color: #fff;
     }
 
-
-
     .course__title {
         color: #2C2C2C;
         font-size: 25px;
@@ -916,8 +914,6 @@ footer {
 
     .feedback__title_description {
         max-width: 400px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     .feedback__contacts {
@@ -1026,7 +1022,14 @@ footer {
         margin-top: 20px;
     }
 
-    .feedback__title_description, .feedback__subtitle_description, .course__subtitle {
+    .feedback__title_description {
+        max-width: 320px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .feedback__subtitle_description, .course__subtitle {
         max-width: 320px;
         width: 100%;
     }
@@ -1050,7 +1053,7 @@ footer {
         width: 100%;
     }
 
-     .course__card2, .course__cards_row1, .course__cards_row2 {
+    .course__card2, .course__cards_row1, .course__cards_row2 {
         max-width: 280px;
         width: 100%;
     }
@@ -1084,8 +1087,16 @@ footer {
         height: 30px;
     }
 
-    .feedback, .feedback__form, .feedback__form_up {
+     .feedback__form, .feedback__form_up {
         max-width: 300px;
+        width: 100%;
+    }
+
+    .feedback {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
         width: 100%;
     }
     
