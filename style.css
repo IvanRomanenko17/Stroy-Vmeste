@@ -988,7 +988,7 @@ footer {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:440px) {
    
     header {
         height: 110px;
@@ -1034,7 +1034,7 @@ footer {
     }
 
     .feedback__subtitle_description, .course__subtitle {
-        max-width: 320px;
+        max-width: 280px;
         width: 100%;
     }
 
