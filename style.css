@@ -1008,8 +1008,12 @@ footer {
 
     .banner__text {
         top: 10px;
-        left: 0px;
-        margin-left: 15px;
+        left: 10px;
+        margin-left: 0;
+    }
+
+    .priority__card {
+        margin-left: 0;
     }
 
     .feedback__title {
@@ -1029,14 +1033,49 @@ footer {
         padding-bottom: 0px;
     }
 
-    .course__subtitle {
-        width: 100%;
-        white-space: normal ;
-    }
 
-    .course__cards_row1, .course__cards_row2, .course__card, .course__card2,  .feedback__container {
+    .course__card, .course__cards_row1, .course__cards_row2, .course__card, .course__card2,  .feedback__container {
         max-width: 320px;
         width: 100%;
+    }
+
+    .course__subtitle {
+        max-width: 280px;
+        width: 100%;
+    }
+
+     .course__card2, .course__cards_row1, .course__cards_row2 {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .course__card, .course__card2 {
+        max-width: 280px;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 0;
+    }
+
+    .course__card_content {
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .course__card_text {
+        width: 100px;
+    }
+
+    .course__card_title {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 30px;
+    }
+
+    .course__card_subtitle {
+        font-size: 18px;
+        height: 30px;
     }
 
     .feedback, .feedback__form, .feedback__form_up {
@@ -1074,11 +1113,12 @@ footer {
         white-space: normal;
         hyphens: auto;
         margin-left: 10px;
+        font-size: 11px;
     }
 
     .footer__social {
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 0px;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
 
