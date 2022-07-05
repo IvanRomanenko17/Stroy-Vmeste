@@ -266,6 +266,7 @@ header {
     display: flex;
     justify-content: space-between;
     max-width: 1320px;
+    width: 100%;
     margin-bottom: 45px;
 }
 
@@ -284,6 +285,11 @@ header {
     align-items: center;
     justify-content: flex-end;
     padding-bottom: 20px;
+    margin-right: 30px;
+}
+
+.course__card:last-child {
+    margin-right: 0;
 }
 
 .course__card2 {
@@ -1136,10 +1142,18 @@ footer {
         height: 50px;
     }
 
-     .input, .feedback__input-center, .placeholder-box {
+     .input,  .placeholder-box {
         box-sizing: border-box;
         padding-left: 0;
         height: 50px;
+        width: 280px;
+    }
+
+    .feedback__input-center {
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-bottom: 45px;
+        height: 100px;
         width: 280px;
     }
 
