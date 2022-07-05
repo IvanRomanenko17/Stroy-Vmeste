@@ -1031,13 +1031,21 @@ footer {
     }
     
     .banner__image {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 
     .banner__text {
         top: 10px;
         left: 10px;
         margin-left: 0;
+    }
+
+    .priority__title {
+        margin-bottom: 5px;
+    }
+
+    .priority__subtitle {
+        margin-bottom: 20px;
     }
 
     .priority__card {
