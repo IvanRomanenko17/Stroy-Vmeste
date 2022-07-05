@@ -1014,6 +1014,10 @@ footer {
         height: 110px;
     }
 
+    .header__menu {
+        width: 60px;
+    }
+
     .header__logo {
         width: 83px;
         height: 32px;
