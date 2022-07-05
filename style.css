@@ -465,7 +465,7 @@ header {
 }
 
 .feedback__input-center::placeholder {
-    transform: translateY(-50px);
+    transform: translateX(20px);
 }
 
 .feedback__form {
@@ -652,15 +652,26 @@ footer {
         max-width: 100%;
     }
 
-    .header__phone-number {
-        text-decoration: none;
-    }
-
     .header__container {
         width: 100%;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
+
+    .header__logo {
+        margin-left: 5px;
+    }
+
+    .header__menu {
+        width: 60px;
+        margin-right: 10px;
+    }
+
+    .header__phone-number {
+        display: none;
+        text-decoration: none;
+    }
+
 
     .banner__container {
         width: 100%;
@@ -1008,9 +1019,6 @@ footer {
         height: 32px;
     }
     
-    .header__menu {
-      display: none;
-    }
 
     .banner__text {
         top: 10px;
@@ -1105,10 +1113,19 @@ footer {
     }
     
     
-    .feedback__form_left, .feedback__form_right, .feedback__input-center, .feedback__form_description_text, .feedback__input, .feedback__form_description, .feedback__button_container {
+    .feedback__form_left, .feedback__form_right, .feedback__form_description_text, .feedback__input, .feedback__form_description, .feedback__button_container {
         max-width: 280px;
         width: 100%;
     }
+
+    .feedback__input-center {
+        box-sizing: border-box;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        width: 280px;
+    }
+
+    
 
     .feedback__form_description_text {
         max-width: 250px;
