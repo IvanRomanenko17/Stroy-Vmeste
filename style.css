@@ -1081,15 +1081,12 @@ footer {
         width: 100%;
     }
 
-    .course__card {
-        margin-right: 0;
-    }
-
     .course__card, .course__card2 {
         max-width: 280px;
         width: 100%;
         height: 150px;
         margin-bottom: 0;
+        margin-right: 0;
     }
 
     .course__card_content {
