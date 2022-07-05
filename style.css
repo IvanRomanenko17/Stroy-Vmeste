@@ -507,7 +507,8 @@ header {
 }
 
 .feedback__input-center {
-    width: 693px;
+    box-sizing: border-box;
+    width: 712px;
     height: 164px;
     background: #F7F7F7;
     border-radius: 6px;
@@ -517,8 +518,8 @@ header {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    padding-left: 20px;
-    text-align:left;
+    padding-left: 0px;
+    padding-bottom: 95px;
 }
 
 .feedback__form_description {
@@ -1078,6 +1079,10 @@ footer {
     .course__card2, .course__cards_row1, .course__cards_row2 {
         max-width: 280px;
         width: 100%;
+    }
+
+    .course__card {
+        margin-right: 0;
     }
 
     .course__card, .course__card2 {
